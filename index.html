@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap second</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style>
+        .bg {
+            background-image: url("https://cdn-images-1.medium.com/max/1600/0*I-sI3u34g0ydRqyA");
+            background-size: cover;
+        }
+        .btn {
+            width: 60px;
+            height: 30px;
+            background-color: rgba(207, 207, 207, 0.336);
+            font-size: 13px;
+            text-align: center;
+            padding: 0;
+        }
+    </style>
+</head>
+<body class="bg" style="width: 100%; height:1200px; margin-top:52px">
+        <header class="">
+            <h1 class="m-1 mb-3 p-3 mx-auto shadow rounded text-right" style="width:100%; text-align:center; color:rgb(243, 213, 213); background-color:rgba(255, 255, 255, 0);">Bootstrap Example</h1>
+        </header>
+        <nav class="navbar navbar-expand-sm navbar-light fixed-top" style="height:40px; background-color:rgba(255, 255, 255, 0.233);">
+                <a class="navbar-brand" href="./index_연습.html">Logo</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">
+                                메뉴1
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                메뉴2
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                메뉴3
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                메뉴4
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                더보기
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item">추가메뉴1</a>
+                                <a class="dropdown-item">추가메뉴2</a>
+                                <a class="dropdown-item">추가메뉴3</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="d-flex align-items-stretch" style="height:1080px">
+            <aside class="border-right d-flex" style="width:20%;">
+                <div class="ml-auto mr-4 text-right" style="margin:500px">
+                    <h5>My first Bootstrap Blog</h5>
+                    <p style="margin:0">2019.02.27</p>
+                    <p style="margin:0">Seokhwi's</p>
+                    <hr/>
+                    <button class="btn">HOME</button>
+                    <button class="btn">Close</button>
+                </div>
+            </aside>
+            <section class="flex-grow-1">
+                <div class="container mt-5">
+                    <h3 class="text-center">Main section</h3>
+                    <div class="media mb-4 p-2 border shadow">
+                        <div class="media-body">
+                            <p>Introducing Bootstrap</p>
+                            <p>by seokhwi</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima laborum voluptatibus ad est consequatur, nisi perferendis. Cum ipsam voluptatum esse ullam animi. Ut delectus sequi quae eaque, atque deleniti magnam!</p>
+                        </div>
+                        <img src="https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2018/04/1525068825bootstrap-logo-png-logo-228.png" alt="bootstrap" class="rounded-1 mt-2 mr-2" style="width:60px">
+                    </div>
+                    <div class="media mb-4 p-2 border shadow">
+                            <div class="media-body">
+                                <p>Introducing Bootstrap</p>
+                                <p>by seokhwi</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima laborum voluptatibus ad est consequatur, nisi perferendis. Cum ipsam voluptatum esse ullam animi. Ut delectus sequi quae eaque, atque deleniti magnam!</p>
+                            </div>
+                            <img src="https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2018/04/1525068825bootstrap-logo-png-logo-228.png" alt="bootstrap" class="rounded-1 mt-2 mr-2" style="width:60px"> 
+                    </div>
+                    <div class="media mb-4 p-2 border shadow">
+                            <div class="media-body">
+                                <p>Introducing Bootstrap</p>
+                                <p>by seokhwi</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima laborum voluptatibus ad est consequatur, nisi perferendis. Cum ipsam voluptatum esse ullam animi. Ut delectus sequi quae eaque, atque deleniti magnam!</p>
+                            </div>
+                            <img src="https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2018/04/1525068825bootstrap-logo-png-logo-228.png" alt="bootstrap" class="rounded-1 mt-2 mr-2" style="width:60px"> 
+                    </div>
+                    <div class="media mb-4 p-2 border shadow">
+                            <div class="media-body">
+                                <p>Introducing Bootstrap</p>
+                                <p>by seokhwi</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima laborum voluptatibus ad est consequatur, nisi perferendis. Cum ipsam voluptatum esse ullam animi. Ut delectus sequi quae eaque, atque deleniti magnam!</p>
+                            </div>
+                            <img src="https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2018/04/1525068825bootstrap-logo-png-logo-228.png" alt="bootstrap" class="rounded-1 mt-2 mr-2" style="width:60px"> 
+                    </div>
+                    <div class="media mb-4 p-2 border shadow">
+                            <div class="media-body">
+                                <p>Introducing Bootstrap</p>
+                                <p>by seokhwi</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima laborum voluptatibus ad est consequatur, nisi perferendis. Cum ipsam voluptatum esse ullam animi. Ut delectus sequi quae eaque, atque deleniti magnam!</p>
+                            </div>
+                            <img src="https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2018/04/1525068825bootstrap-logo-png-logo-228.png" alt="bootstrap" class="rounded-1 mt-2 mr-2" style="width:60px"> 
+                    </div>
+                    
+                </div>
+            </section>
+        </div>
+        </div>
+        
+        <footer class="row fixed-bottom bg-info">
+            <div class="col border border-primary">푸터</div>
+        </footer>
+</body>
+</html>
